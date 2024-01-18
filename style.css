@@ -1,2 +1,131 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    position: fixed;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.search { 
+    margin: 0 10px; 
+    border-radius: 9999px;  
+    border-width: 1px; 
+    box-shadow: 3px 6px 10px -1px rgba(41, 20, 20, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);  
+    width: 236px;  
+    height: 54px;  
+}
+.filter button {
+        -webkit-appearance: none;
+        background-color: initial;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        border-radius: 50%;
+        background: transparent;
+        align-items: center;
+        border: 1px solid rgb(174, 164, 164);
+        height: 40px;
+        width: 40px;
+      }  
+.anyweek, .addguests, .anywhere {   
+    font-size: 0.875rem; 
+    line-height: 1.25rem;  
+    font-weight: 500;  
+    color: #6B7280;  
+    background-color: white; 
+    border: none; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: 300ms; 
+} 
+.anywhere { 
+    color:black; 
+    display: inline-block;
+    width: 100px;
+    
+} 
+.divider { 
+    color: #6B7280; 
+} 
+.anyweek, .addguests {
+    padding: 0;
+}
+.magnify {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.material-symbols-outlined.filter {
+    align-items: center;
+}
+.catbar {
+    display: flex; 
+    align-items: center; 
+    height: 6rem; 
+    width: 100%;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.categories {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid 1px rgba(236, 226, 226, 0.539);
+    box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.16);
+    width: 100%;
+}
+.type {
+    display: flex; 
+    padding-left: 1rem;
+    padding-right: 6px;
+    flex-direction: column;
+    gap: 0.5rem; 
+    align-items: center; 
+    color: #646870; 
+}
+.type:hover {
+ color: #000000; 
+ }
 
+.type2 {
+    display: flex;
+    margin-left: 1rem; 
+    justify-content: center; 
+    flex-direction: column;
+    gap: 0.5rem; 
+    align-items: center;
+    color: #646870;  
+}
+
+.type2:hover {
+ color: #000000; 
+ }
+ .lastimage {
+    padding-right: 1rem;
+ }
+
+.typeimage {
+    width: 1.5rem; 
+    height: 1.5rem; 
+}
+p { 
+    font-size: 0.75rem; 
+    line-height: 1rem;  
+    font-weight: 400;  
+    text-align: center; 
+    text-wrap: nowrap; 
+} 
+
+    
 
