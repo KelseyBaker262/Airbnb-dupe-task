@@ -119,7 +119,7 @@
     width: 1.5rem; 
     height: 1.5rem; 
 }
-p { 
+.p1 { 
     font-size: 0.75rem; 
     line-height: 1rem;  
     font-weight: 400;  
@@ -127,5 +127,46 @@ p {
     text-wrap: nowrap; 
 } 
 
-    
-
+.flex {
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-bottom: 25px;
+}
+.info2 {
+    display: flex;
+    justify-content: space-between;
+}
+.hotels {
+    height: 352px;
+    width:272px;
+}
+.location, .price {
+    font-weight: bold;
+}
+.total {
+    text-decoration: underline;
+    padding-top: 10px;
+}
+.host, .date {
+    color: #646870;
+}
+.star {
+    font-size:small;
+}
+.rating {
+  display: flex;
+  justify-content: space-between;  
+}
+.photos {
+    border-radius: 15px;
+    width: auto;
+    height: 250px;
+    width: 272px;
+}
+.info {
+    padding-top: 10px;
+}
+.host {
+    padding-top: 3px;
+}
