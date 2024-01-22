@@ -129,9 +129,10 @@
 
 .flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-left: 24px;
     padding-bottom: 25px;
+    row-gap: 40px
 }
 .info2 {
     display: flex;
@@ -140,6 +141,7 @@
 .hotels {
     height: 352px;
     width:272px;
+    padding-bottom: 16px;
 }
 .location, .price {
     font-weight: bold;
