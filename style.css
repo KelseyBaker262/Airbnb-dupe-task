@@ -172,3 +172,36 @@
 .host {
     padding-top: 3px;
 }
+
+.main-menu-end {
+    height: 86px;
+    width: 272px;
+    text-align: center;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.continue-exploring {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.show-more {
+    background-color: #000000;
+    color: #fff;
+    align: center; 
+    cursor: pointer;
+    border: none;
+    box-shadow: cubic-bezier(0.2,0,0,1);
+    padding: 14px 24px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    width: auto;
+    border-radius: 8px;
+    border: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+}
