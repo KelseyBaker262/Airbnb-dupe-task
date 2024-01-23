@@ -237,7 +237,7 @@
     background-color: rgba(0, 0, 0, 0.046);
 }
 
-ul {
+.getawaylocations {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -246,7 +246,7 @@ ul {
     list-style: none;
     margin-left: 20px;
 }
-span {
+.span1, .span2, .span3 {
     display: block;
     font-weight: 600;
 }
@@ -263,3 +263,43 @@ span {
     display: inline-block;
 }
 
+.finalmenusections {
+    padding: 0px 24px;
+    background-color: rgba(0, 0, 0, 0.046);
+}
+.support {
+    padding: 24px 0px;
+    border-bottom: solid 1px rgba(205, 197, 197, 0.539);
+}
+.supportoptions {
+    display: grid;
+    list-style: none;
+    row-gap: 12px;
+    font-size: 0.875rem;
+}
+h3 {
+    margin-bottom: 12px;
+    font-weight: 600;
+    line-height: 1.125rem;
+    font-size: 0.875rem;
+}
+.world, .language, .currency {
+    display: inline-block;
+}
+.material-symbols-outlined.language {
+    font-size: 14px;
+    align-items: center;
+    padding: 24px 0px 24px 0px;
+}
+.currency {
+    padding-left: 20px;
+}
+.language, .currency {
+    font-weight: 600
+}
+.terms {
+    margin-top: 10px;
+}
+.TC {
+margin-bottom: 20px;
+}
