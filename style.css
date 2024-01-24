@@ -4,18 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header {
-    position: fixed;
+span, button, img, p, li {
+    cursor:pointer;
 }
 .navbar {
     display: flex;
     justify-content: space-evenly; 
     align-items: center;
-    height: 100%;
     width: 100%; 
     padding-top: 14px;
     padding-left: 10px;
     padding-right: 15px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 .search { 
     margin: 0 10px; 
@@ -24,6 +27,11 @@
     box-shadow: 3px 6px 10px -1px rgba(41, 20, 20, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);  
     width: 236px;  
     height: 54px;  
+    display: grid;
+    grid-template-columns: 50px 200px;
+    grid-template-rows: 50px;
+    align-items: center;
+
 }
 .filter button {
         -webkit-appearance: none;
@@ -38,6 +46,9 @@
         height: 40px;
         width: 40px;
       }  
+.material-symbols-outlined.filter {
+    font-size: 20px;
+}
 .anyweek, .addguests, .anywhere {   
     font-size: 0.875rem; 
     line-height: 1.25rem;  
@@ -46,14 +57,11 @@
     background-color: white; 
     border: none; 
     text-align: center; 
-    cursor: pointer; 
     transition: 300ms; 
 } 
 .anywhere { 
     color:black; 
     display: inline-block;
-    width: 100px;
-    
 } 
 .divider { 
     color: #6B7280; 
@@ -61,10 +69,10 @@
 .anyweek, .addguests {
     padding: 0;
 }
-.magnify {
+.material-symbols-outlined.magnify {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    font-size: 28px;
+    padding: 10px;
 }
 .material-symbols-outlined.filter {
     align-items: center;
@@ -72,10 +80,13 @@
 .catbar {
     display: flex; 
     align-items: center; 
-    height: 6rem; 
     width: 100%;
     justify-content: space-evenly;
     font-weight: bold;
+    padding-top: 10px;
+    position: fixed;
+    top: 78px;
+    background-color: white;
 }
 .categories {
     display: flex; 
@@ -126,7 +137,9 @@
     text-align: center; 
     text-wrap: nowrap; 
 } 
-
+.hotel {
+    margin-top: 160px;
+}
 .flex {
     display: flex;
     flex-direction: column;
@@ -192,14 +205,12 @@
     background-color: #000000;
     color: #fff;
     align: center; 
-    cursor: pointer;
     border: none;
     box-shadow: cubic-bezier(0.2,0,0,1);
     padding: 14px 24px;
     font-weight: 600;
     line-height: 1.25rem;
     font-size: 1rem;
-    position: relative;
     -webkit-tap-highlight-color: transparent;
     width: auto;
     border-radius: 8px;
@@ -259,8 +270,12 @@
     color:#868c98;
     font-weight: lighter;
 }
-.span3 {
-    display: inline-block;
+.align {
+    display: flex;
+    flex-direction: row;
+}
+.material-symbols-outlined.span4{ 
+    font-size: 20px;
 }
 
 .finalmenusections {
@@ -300,6 +315,9 @@ h3 {
 .terms {
     margin-top: 10px;
 }
+.underline:hover {
+    text-decoration: underline;
+}
 .TC {
     padding-bottom: 20px;
 }
@@ -335,3 +353,4 @@ h3 {
     height: 44px;
     width: 60px;
 }
+
