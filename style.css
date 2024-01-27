@@ -147,6 +147,9 @@ span, button, img, p, li {
     padding-bottom: 25px;
     row-gap: 40px
 }
+img {
+    object-fit: cover;
+}
 .info2 {
     display: flex;
     justify-content: space-between;
